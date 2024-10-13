@@ -1,0 +1,430 @@
+body {
+    font-family: sans-serif;
+}
+body {
+    font-family: sans-serif;
+}
+body{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;
+    
+}
+header{
+   
+    position: relative;
+    top: 70px;
+    width: 100%;
+    background:url(https://qwintry.com/en/file/view/nike.jpg);
+    display: flex;
+    align-items: center;
+    height: 604px;
+}
+    
+.logo{
+    position: absolute;
+    width: 15%;
+    left: 395px;
+    top: 15%;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 128px;
+    color: #000000;
+}
+.logo:hover{
+    color:#FFFFFF;
+    text-shadow: 3px 3px 3px 3px gold;
+}
+
+h2{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFF;
+}
+nav{
+    position: relative; 
+    left: 0px;
+    top: 250px;
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+    height: 133px;
+    background: #FFFF;
+}
+
+.nav-link {
+    font-style: normal;
+    position: relative;
+    top:50px;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 23px;
+    
+    color: #1E1E1E;
+    text-decoration: none;
+}
+.nav-link:first-child{
+    font-weight: 700;  
+    color: #fa750f;
+   
+}
+
+
+.nav-link:first-child:hover{
+    color:#1E1E1E;
+     transition: 0.2s ease-in;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+    color: orangered;
+    transition: 0.2s ease-in;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+.info{
+    position: relative;
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 50px;
+}
+.info-img{
+    position: absolute;
+    top:80px;
+    width: 40%;
+    left: 65%;
+}
+.info-img:hover{
+    width:50% ;
+    height: 60%;
+}
+.info-div{
+    position: absolute;
+    left: 2%;
+    width: 60%;
+}
+.info-div h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #575757;
+}
+.info-div p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #575757;
+    width: 90%;
+    text-align: justify;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    background: #915e0b;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+}
+.call-butt:hover{
+    background: #FFFFFF;
+    color: #915e0b;
+    border: 1px solid #915e0b;
+    transition: 0.2s ease-out;
+}
+
+.menu{
+    position: relative;
+    justify-content: center;
+    
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top:0;
+    
+    
+}
+.menu-info{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;   
+     
+}
+.menu h2{
+    position: relative;
+    top:90px;
+    left:20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #575757;
+    
+}
+.menu-div{
+    position: relative;
+    top:20px;
+    left: 10px;
+    margin: 10% 0%;
+    
+    
+}
+.menu-img{
+    position: relative;
+    left:0px;
+    top:20px;
+    border-radius: 35px;
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 330px;
+    height: 328px;
+
+}
+.menu-img:hover{
+    width:400px ;
+    height:395px ;
+}
+
+.menu-div h3{
+    position: relative;
+    top:30px;
+    left:0px;
+    width: 100%;
+    font-style: normal;
+    display: flex;
+    justify-content:space-around;
+    
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #5b3d0f; 
+    
+    line-height: 100%;
+
+}
+
+
+.menu-text{
+    position: relative;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #5b580f;
+    display: flex;
+    justify-content: center;
+}
+
+.sallary{
+    position: relative;
+    top:0%;
+    left:130px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #915e0b;
+    width: 100%;
+}
+.order{
+    position: relative;
+    top:0%;
+    left:20%;
+    background: #915e0b;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2% 10%;
+    height: 30px;
+   
+}
+.order:hover{
+    background: #FFFFFF;
+    color:#915e0b;
+    border: 1px solid #915e0b;
+    transition: 0.2s ease-out;
+}
+.sale{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 407px;
+    left: 0px;
+    }
+   
+.sale h2{
+    /* Відгуки */
+position:position;
+width: 168px;
+height: 56px;
+left: 549px;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.sale img{
+    border-radius:35px;
+}
+.sale-div{
+    display: flex;
+    justify-content: center;
+}
+.sale-img{
+    width: 190px;
+    height: 190px;
+    padding: 3% 5%;
+    border-radius: 35px;
+   
+}
+.sale-info{
+    top:0px;
+    position: relative;
+}
+.about{
+    position: relative;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+    top:0px;
+    
+}
+.about h2{
+    position: relative;
+    top:140px;
+}
+.about-div{
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+.about-div p{
+    position: absolute;
+    width: 40%;
+    height: 273px;
+    left: 87px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+
+}
+iframe{
+    width: 100%;
+    position: relative;
+    height: 300px;
+    top:120px;
+    
+}
+.sale-1{
+    position: relative;
+    top:-170px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+}
+.sale-div1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 70px;
+    height: 425px;
+    left: 0px;
+    background: #c4c4c4c4;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #575757;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+    border-radius: 15%;
+}
+.logo-img{
+    position: absolute;
+    left: 70%;
+    top:15%;
+    width: 15%;
+    border-radius: 15%;
+}
+.sale-img{
+    position: relative;
+    top:-10%;
+    border-radius: 15px;
+}
+.sale-info{
+    position: relative;
+    top:50px;
+ }
+
+
